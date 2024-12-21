@@ -8,6 +8,7 @@ import ReactPlayer from "react-player";
 const data = [
   {
     img: `img/banner1.jpg`,
+<<<<<<< HEAD
   },
   {
     img: `img/banner2.jpg`,
@@ -20,6 +21,25 @@ const data = [
   },
   {
     img: `img/banner5.jpg`,
+=======
+    link: 'https://google.com'
+  },
+  {
+    img: `img/banner2.jpg`,
+    link: 'https://google.com'
+  },
+  {
+    img: `img/banner3.jpg`,
+    link: 'https://google.com'
+  },
+  {
+    img: `img/banner4.jpg`,
+    link: 'https://google.com'
+  },
+  {
+    img: `img/banner5.jpg`,
+    link: 'https://google.com'
+>>>>>>> bdc0a99a33e8b94dd99f7b088d78f39c13321cbc
   },
 ];
 const items = [
@@ -80,9 +100,17 @@ function Home() {
       <div className="ml-2 w-[91%] sm:w-[97%] ">
         <div className="mt-2">
           <Slider {...settings}>
+<<<<<<< HEAD
             {data.map((d) => (
               <div className="flex justify-center items-center">
                 <img src={d.img} className=" w-full sm:h-[60vh] h-[25vh]" />
+=======
+            {data.map((d,index) => (
+              <div key={index} className="flex justify-center items-center">
+                <img src={d.img} className=" w-full sm:h-[60vh] h-[25vh]" />
+                {/* use for add link */}
+               {/* <a href={d.link} target="_blank" rel="noopener noreferrer">show more</a> */}
+>>>>>>> bdc0a99a33e8b94dd99f7b088d78f39c13321cbc
               </div>
             ))}
           </Slider>

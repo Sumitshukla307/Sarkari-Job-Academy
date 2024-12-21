@@ -30,12 +30,20 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
+<<<<<<< HEAD
                   <Link to="/" class="hover:text-gray-300">
+=======
+                  <Link to="/service" class="hover:text-gray-300">
+>>>>>>> bdc0a99a33e8b94dd99f7b088d78f39c13321cbc
                     service
                   </Link>
                 </li>
                 <li>
+<<<<<<< HEAD
                   <Link to="/" class="hover:text-gray-300">
+=======
+                  <Link to="/contact" class="hover:text-gray-300">
+>>>>>>> bdc0a99a33e8b94dd99f7b088d78f39c13321cbc
                     Contact
                   </Link>
                 </li>

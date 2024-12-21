@@ -130,13 +130,21 @@ function About() {
               <h3 class="text-xl font-bold">Amarpatan</h3>
             </div>
             <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
+<<<<<<< HEAD
               <h3 class="text-xl font-bold">maiher</h3>
+=======
+              <h3 class="text-xl font-bold">maihar</h3>
+>>>>>>> bdc0a99a33e8b94dd99f7b088d78f39c13321cbc
             </div>
             <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
               <h3 class="text-xl font-bold">Rewa</h3>
             </div>
             <div class="p-4 shadow-lg rounded-lg bg-green-100 hover:bg-green-200 transition-colors">
+<<<<<<< HEAD
               <h3 class="text-xl font-bold">Satna</h3>
+=======
+              <h3 class="text-xl font-bold">Ramnagar</h3>
+>>>>>>> bdc0a99a33e8b94dd99f7b088d78f39c13321cbc
             </div>
           </div>
         </section>
